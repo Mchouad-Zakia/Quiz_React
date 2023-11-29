@@ -1,0 +1,183 @@
+{
+  "results": [
+    {
+      "question": "Qu'est-ce que React?",
+      "correct_answer": "Une bibliothèque JavaScript pour construire des interfaces utilisateur",
+      "incorrect_answers": [
+        "Un langage de programmation",
+        "Un système de gestion de base de données",
+        "Un framework CSS"
+      ]
+    },
+    {
+      "question": "Quel est le rôle de JSX dans React?",
+      "correct_answer": "Permet d'écrire du code HTML dans JavaScript",
+      "incorrect_answers": [
+        "Un préprocesseur CSS",
+        "Un langage de requête de base de données",
+        "Une bibliothèque de gestion d'état"
+      ]
+    },
+    {
+      "question": "Quelle fonction est utilisée pour effectuer une action après le rendu d'un composant?",
+      "correct_answer": "useEffect",
+      "incorrect_answers": [
+        "useState",
+        "useCallback",
+        "useContext"
+      ]
+    },
+    {
+      "question": "Quelle méthode est appelée pour mettre à jour l'état d'un composant?",
+      "correct_answer": "setState",
+      "incorrect_answers": [
+        "updateState",
+        "modifyState",
+        "changeState"
+      ]
+    },
+    {
+      "question": "Quelle est la différence entre les composants contrôlés et non contrôlés?",
+      "correct_answer": "Les composants contrôlés ont leur état géré par React, tandis que les composants non contrôlés ont leur état géré par le DOM.",
+      "incorrect_answers": [
+        "Il n'y a pas de différence",
+        "Les composants contrôlés sont plus lents",
+        "Les composants non contrôlés sont dépréciés"
+      ]
+    },
+    {
+      "question": "Qu'est-ce qu'un Hook dans React?",
+      "correct_answer": "Une fonction qui permet d'utiliser des fonctionnalités React dans les composants fonctionnels",
+      "incorrect_answers": [
+        "Un composant React spécial",
+        "Une bibliothèque externe",
+        "Une classe ES6"
+      ]
+    },
+    {
+      "question": "Quelle méthode est utilisée pour effectuer une requête HTTP dans un composant React?",
+      "correct_answer": "fetch",
+      "incorrect_answers": [
+        "axios",
+        "httpRequest",
+        "ajax"
+      ]
+    },
+    {
+      "question": "Quel concept permet de passer des données d'un composant parent à un composant enfant?",
+      "correct_answer": "Props",
+      "incorrect_answers": [
+        "State",
+        "Data",
+        "Passage direct"
+      ]
+    },
+    {
+      "question": "Qu'est-ce qu'un composant de classe?",
+      "correct_answer": "Un composant React écrit en utilisant la syntaxe ES6 class",
+      "incorrect_answers": [
+        "Un composant complexe",
+        "Un composant non fonctionnel",
+        "Un composant obsolète"
+      ]
+    },
+    {
+      "question": "Quel hook est utilisé pour gérer l'état dans un composant fonctionnel?",
+      "correct_answer": "useState",
+      "incorrect_answers": [
+        "useEffect",
+        "useContext",
+        "useReducer"
+      ]
+    },
+    {
+      "question": "Quelle méthode est appelée lorsqu'un composant est monté dans le DOM?",
+      "correct_answer": "componentDidMount",
+      "incorrect_answers": [
+        "componentDidUpdate",
+        "componentWillMount",
+        "componentWillUnmount"
+      ]
+    },
+    {
+      "question": "Quelle bibliothèque est souvent utilisée pour le routage dans une application React?",
+      "correct_answer": "React Router",
+      "incorrect_answers": [
+        "Redux",
+        "Vue Router",
+        "Angular Router"
+      ]
+    },
+    {
+      "question": "Qu'est-ce que Redux dans le contexte de React?",
+      "correct_answer": "Un gestionnaire d'état global pour les applications React",
+      "incorrect_answers": [
+        "Une bibliothèque de gestion de base de données",
+        "Un framework CSS",
+        "Un outil de test unitaire"
+      ]
+    },
+    {
+      "question": "Quel est le rôle de la méthode render() dans un composant React?",
+      "correct_answer": "Renvoie l'élément React à rendre",
+      "incorrect_answers": [
+        "Effectue une requête HTTP",
+        "Met à jour l'état du composant",
+        "Effectue une action après le rendu"
+      ]
+    },
+    {
+      "question": "Quelle méthode est utilisée pour gérer les événements dans React?",
+      "correct_answer": "handleEvent",
+      "incorrect_answers": [
+        "onEvent",
+        "eventHandler",
+        "listenEvent"
+      ]
+    },
+    {
+      "question": "Qu'est-ce qu'un composant fonctionnel dans React?",
+      "correct_answer": "Un composant écrit sous forme de fonction",
+      "incorrect_answers": [
+        "Un composant sans fonctionnalités",
+        "Un composant déprécié",
+        "Un composant complexe"
+      ]
+    },
+    {
+      "question": "Quelle méthode est utilisée pour conditionner le rendu d'un composant dans React?",
+      "correct_answer": "Conditional Rendering",
+      "incorrect_answers": [
+        "Dynamic Rendering",
+        "Conditional Display",
+        "Conditional Styling"
+      ]
+    },
+    {
+      "question": "Quelle est la différence entre state et props?",
+      "correct_answer": "State est géré par le composant lui-même, tandis que props sont des données passées de parent à enfant.",
+      "incorrect_answers": [
+        "State est utilisé pour le rendu conditionnel, tandis que props sont utilisés pour gérer l'état",
+        "Props est géré par le composant lui-même, tandis que state sont des données passées de parent à enfant.",
+        "Il n'y a pas de différence"
+      ]
+    },
+    {
+      "question": "Quel hook est utilisé pour effectuer une action après chaque rendu du composant?",
+      "correct_answer": "useEffect",
+      "incorrect_answers": [
+        "useCallback",
+        "useLayoutEffect",
+        "useUpdateEffect"
+      ]
+    }, {
+      "question": "Quelle méthode est appelée lorsqu'un composant est mis à jour dans le DOM?",
+      "correct_answer": "componentDidUpdate",
+      "incorrect_answers": [
+        "componentWillUpdate",
+        "componentDidMount",
+        "componentWillReceiveProps"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+/* Quiz.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #012143db;
+  color: white;
+}
+
+.Quiz {
+  max-width: 600px;
+margin-top:7%;
+margin-left: 29%;
+text-align: center;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
+border: 2px solid #fff;
+overflow: hidden;
+background-color: #ffffff;
+position: relative;}
+button {
+  padding: 15px 15px;
+font-size: 1.5rem;
+cursor: pointer;
+margin-top:7%;
+margin-left: 39%;
+border: 0px;
+background: transparent;
+position: relative;
+transition: all .2s;
+overflow: hidden;
+color: #fff;
+border-radius: 30px;
+box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+
+}
+button::after {
+  content: '';
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  background-image: linear-gradient(225deg,#27d86c 0%, #26caf8 50%, #c625d0 100%);
+  z-index: -1;
+  transition: all .5s;
+}
+
+button:hover::after {
+  transform: rotate(150deg);
+}
+
+button:hover {
+  transform: translate(0,-6px);
+  box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
+}
+#btn{
+ 
+    animation: zoomInOut 2s ease-in-out infinite;
+    
+}
+h1 {
+  color: #2c3e50; /* Bleu marine */
+}
+
+p {
+  font-size: 18px;
+  color: #34495e; /* Bleu grisâtre */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color:#34dbb7;/* Jaune */
+  color: #3b3c3c; /* Bleu marine pour le texte sur fond jaune */
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color:#34dbb7a7; /* Jaune plus sombre au survol */
+}
+
+/* Quiz.css */
+progress {
+  width: 100%;
+  height: 10px;
+  margin-top: 10px;
+
+  border: none;
+  background-color: #eee; /* Couleur de fond de la barre de progression */
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee; /* Couleur de fond de la barre de progression pour les navigateurs WebKit */
+}
+
+progress::-webkit-progress-value {
+  background-color: #34dbb7; /* Couleur de la partie remplie de la barre de progression pour les navigateurs WebKit */
+}
+
+progress::-moz-progress-bar {
+  background-color: #34db9b; /* Couleur de la partie remplie de la barre de progression pour les navigateurs Gecko (Firefox) */
+}
+.score {
+ 
+color: #34db9b;
+
+}
+/* Quiz.css */
+
+.score-green {
+  border-radius: 8px;
+  box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
+  border: 2px solid #fff;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+  color: green;
+  max-width: 700px;
+  margin-top:3%;
+  margin-left: 27%;
+  text-align: center;
+  padding: 20px;
+}
+
+.score-red {
+  border-radius: 8px;
+  box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
+  border: 2px solid #fff;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+  color: red;
+  max-width: 600px;
+  margin-top:5%;
+  margin-left: 29%;
+  text-align: center;
+  padding: 20px;
+}
+/* Quiz.css */
+
+/* Ajout de styles au paragraphe de bienvenue */
+/* Quiz.css */
+
+/* Quiz.css */
+
+/* Quiz.css */
+
+.titre {
+font-size: 1.5em;
+color: #fff; /* Couleur du texte */
+text-align: center;
+margin-top: 7%;
+/* Ajoutez d'autres styles selon vos besoins */
+}
+
+/* Ajout d'une animation de rebondissement */
+@keyframes bounce {
+0%, 20%, 50%, 80%, 100% {
+  transform: translateY(0);
+}
+40% {
+  transform: translateY(-20px);
+}
+60% {
+  transform: translateY(-10px);
+}
+}
+
+.titre {
+animation: bounce 2s ease-in-out infinite;
+}
+
+/* Ajout d'une animation de changement de couleur */
+@keyframes colorChange {
+0% {
+  color:  rgba(143, 64, 248, .25);
+}
+50% {
+  color: #26caf8 ; /* Couleur pendant le changement */
+}
+100% {
+  color: #fff;
+}
+}
+
+.titre {
+animation: colorChange 3s ease-in-out infinite;
+}
+@keyframes zoomInOut {
+0%, 100% {
+  transform: scale(1);
+}
+50% {
+  transform: scale(1.2);
+}
+}
+
+.score-green img {
+animation: zoomInOut 2s ease-in-out infinite;
+}
+
+.score-red img {
+animation: zoomInOut 2s ease-in-out infinite;
+}
+/* Ajouter ces styles à votre fichier Quiz.css */
+
+/* Styles pour la section des réponses incorrectes à la fin du quiz */
+.AnswersSection {
+  margin-top: 50px;
+  color: black;
+  margin-left: 0px !important;
+  font-size: 18px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.AnswersSection h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(12, 12, 12); /* Couleur du texte */
+}
+
+.AnswersSection div {
+  margin-bottom: 10px;
+  
+}
+
+.QuestionContainer {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 10px;
+
+
+}
+.QuestionText{
+  color: rgb(4, 4, 4);
+  
+}
+
+.QuestionContainer p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.CorrectAnswer {
+  color: rgb(12, 205, 12); /* Couleur du texte pour la réponse correcte */
+}
+
+.IncorrectAnswer {
+  color: red; /* Couleur du texte pour les réponses incorrectes */
+}
+.UserAnswerCorrect {
+  color: green;
+}
+
+.UserAnswerIncorrect {
+  color: red;
+}
+.btn1{
+  padding: 15px 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top:7%;
+  margin-left: 2%;
+  border: 0px;
+  background: transparent;
+  position: relative;
+  transition: all .2s;
+
+  color: #0f0f0f;
+ 
+}
+
