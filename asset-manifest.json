@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Mchouad-Zakia/Quiz_React/static/css/main.a33f577d.css",
-    "main.js": "/Mchouad-Zakia/Quiz_React/static/js/main.91683283.js",
-    "static/js/787.dd69caef.chunk.js": "/Mchouad-Zakia/Quiz_React/static/js/787.dd69caef.chunk.js",
-    "index.html": "/Mchouad-Zakia/Quiz_React/index.html",
-    "main.a33f577d.css.map": "/Mchouad-Zakia/Quiz_React/static/css/main.a33f577d.css.map",
-    "main.91683283.js.map": "/Mchouad-Zakia/Quiz_React/static/js/main.91683283.js.map",
-    "787.dd69caef.chunk.js.map": "/Mchouad-Zakia/Quiz_React/static/js/787.dd69caef.chunk.js.map"
+    "main.css": "/Quiz_React/static/css/main.a33f577d.css",
+    "main.js": "/Quiz_React/static/js/main.227c65c9.js",
+    "static/js/787.dd69caef.chunk.js": "/Quiz_React/static/js/787.dd69caef.chunk.js",
+    "index.html": "/Quiz_React/index.html",
+    "main.a33f577d.css.map": "/Quiz_React/static/css/main.a33f577d.css.map",
+    "main.227c65c9.js.map": "/Quiz_React/static/js/main.227c65c9.js.map",
+    "787.dd69caef.chunk.js.map": "/Quiz_React/static/js/787.dd69caef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a33f577d.css",
-    "static/js/main.91683283.js"
+    "static/js/main.227c65c9.js"
   ]
 }
